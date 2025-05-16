@@ -1,0 +1,34 @@
+*{   /* Selector Universal */
+	font-family: sans-serif;
+}
+table{
+	border: 3px ridge gray;
+	border-collapse: collapse;
+	width: 40%;
+}
+th, td{
+	border: 3px ridge gray;
+}		
+body{
+	background-image: url('fondo.jpg');
+	background-size: 100%;
+}
+#titulo{   /* Id Titulo  */
+	font-size: 40px;
+	color: blue;
+}
+.centrar{
+	text-align: center;
+}
+img{
+	border: 1px solid red;
+	/*
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	margin: 10px 15px 30px 5px;
+	*/
+	margin: 30px;
+	padding: 15px;
+}
